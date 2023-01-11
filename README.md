@@ -9,4 +9,3 @@ echo $mime; // image/jpeg
 $mime = 'application/json';
 $extension = mimeTypeToExtension($mime);
 echo $extension; // json
-
