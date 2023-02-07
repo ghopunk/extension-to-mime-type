@@ -1,19 +1,13 @@
-# extension-to-mime-type
+# Extension to Mime Type
 
-Convert Extension to Mime-type
+Convert Extension to Mime-type or Mime-type to Extension
 
-$extension = 'jpg';
-
-$mime = extensionToMimeType($extension);
-
+# Sample Extension to Mime-type
+$extension = 'jpg';<br>
+$mime = extensionToMimeType($extension);<br>
 echo $mime; // image/jpeg
 
-
-
-Convert Mime-type to Extension
-
-$mime = 'application/json';
-
-$extension = mimeTypeToExtension($mime);
-
+# Sample Mime-type to Extension
+$mime = 'application/json';<br>
+$extension = mimeTypeToExtension($mime);<br>
 echo $extension; // json
