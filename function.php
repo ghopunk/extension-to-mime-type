@@ -1,4 +1,5 @@
 <?php
+
 function getMimeList() {
 	return [
 		'ez'		=> 'application/andrew-inset',
@@ -1016,4 +1017,3 @@ function mimeTypeToExtension($mime_type) {
 	}
 	return $extension;
 }
-?>
